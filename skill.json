@@ -1,0 +1,26 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "A sample skill that demonstrates the use of a Spokestack TTS voice in place of Alexa's and a loving tribute to Stuart Smalley.",
+          "examplePhrases": [
+            "Alexa open Custom T.T.S.",
+            "Alexa tell Custom T.T.S. to say something",
+            "Alexa tell Custom T.T.S. to motivate me"
+          ],
+          "name": "Stuart Smallish",
+          "description": "A sample skill that demonstrates the use of a Spokestack TTS voice in place of Alexa's and a loving tribute to Stuart Smalley."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {}
+    },
+    "manifestVersion": "1.0"
+  }
+}

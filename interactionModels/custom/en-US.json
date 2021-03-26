@@ -1,0 +1,33 @@
+{
+    "interactionModel":{
+        "languageModel":{
+            "invocationName":"custom t.t.s.",
+            "types":[],
+            "intents":[
+                {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+                },
+                {
+                    "name":"MotivateIntent",
+                    "slots":[
+
+                    ],
+                    "samples":[
+                        "say something",
+                        "say something like me",
+                        "motivate me"
+                    ]
+                }
+            ]
+        }
+    }
+}
