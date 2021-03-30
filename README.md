@@ -34,3 +34,13 @@ The code for the actual synthesis is in the `spokestack.py` file. It makes a Gra
 ## Can I Use My Own Voice?
 
 Yes! Spokestack's Maker account lets you train your own TTS voice using a simple web tool and your own microphone. You can do it with as little as 5 minutes of data; once your voice is trained, simply plug its name into the `VOICE` variable at the top of `lambda_function.py`.
+
+## Troubleshooting
+
+### Alexa says, "Sorry, I don't know that one" during testing
+This happens if you ask Alexa to open a skill, but the skill's name isn't recognized. Development skills can run into this problem if the invocation name has been changed without rebuilding the skill's model. To ensure your skill name is up to date:
+1. Click on the "*Build*" tab in the development console.
+1. Click on "*Invocation Name*" in the Skill builder checklist.
+1. Double-check that your invocation name is what you want, then click "*Save Model*" at the top of the page.
+1. Click "*Deploy Model*".
+When the model is updated, Amazon will notify you with a popup at the bottom of the screen. At this point, "open `skill name`" should work in the test console.
