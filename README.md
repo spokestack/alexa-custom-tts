@@ -20,12 +20,12 @@ _You'll need an [Amazon developer account](https://developer.amazon.com/) to set
 1. Click "*Import*".
 
 Once you've clicked "*Import*", Amazon will take care of copying over the code and creating a new sandbox for your skill to run in. When the import completes:
-1. Click on the "*Code*" tab to finish setup. This will open the `lambda_function.py` file in a code editor. 
+1. Click on the "*Code*" tab to finish setup. This will open the `lambda_function.py` file in a code editor.
 1. Look for the "*Customize your skill here!*" section and customize it at will.
     - The only things you _need_ to change are `SPOKESTACK_CLIENT_ID` and `SPOKESTACK_CLIENT_SECRET`, replacing the default values with a set of credentials from [your account settings](https://www.spokestack.io/account/settings#api).
 1. When you're finished making changes, click "*Save*" at the top of the page.
 1. Click "*Deploy*" (next to "*Save*").
-1. Click over to the "*Test*" tab while you're waiting for the deployment to finish. 
+1. Click over to the "*Test*" tab while you're waiting for the deployment to finish.
 1. In the dropdown next to "*Test is disabled for this skill*" (at the top of the page), you'll want to select "*Development*". This will let you test your skill directly on the page or on any Alexa-enabled devices connected to the account you used to create this skill.
 
 That's it! Enjoy your new smart speaker voice!
@@ -38,7 +38,7 @@ The code for the actual synthesis is in the `spokestack.py` file. It makes a Gra
 
 ## Can I Use My Own Voice?
 
-Yes! Spokestack's Maker account lets you train your own TTS voice using a simple web tool and your own microphone. You can do it with as little as 5 minutes of data; once your voice is trained, simply plug its name into the `VOICE` variable at the top of `lambda_function.py`.
+Yes! Spokestack's [Maker tier](https://www.spokestack.io/pricing#maker) lets you train your own TTS voice using a simple web tool and your own microphone. You can do it with as little as 5 minutes of data; once your voice is trained, simply plug its name into the `VOICE` variable at the top of `lambda_function.py`.
 
 ## Troubleshooting
 
